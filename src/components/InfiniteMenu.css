@@ -1,0 +1,131 @@
+#infinite-grid-menu-canvas {
+  cursor: grab;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  outline: none;
+}
+
+#infinite-grid-menu-canvas:active {
+  cursor: grabbing;
+}
+
+.face-title {
+  user-select: none;
+  position: absolute;
+  font-weight: 600;
+  font-size: 1.4rem;
+  left: 1.6em;
+  top: 50%;
+  color: #fff;
+  letter-spacing: -0.01em;
+  max-width: 12ch;
+  line-height: 1.3;
+}
+
+.face-title.active {
+  opacity: 1;
+  transform: translate(20%, -50%);
+  pointer-events: auto;
+  transition: 0.5s ease;
+}
+
+.face-title.inactive {
+  pointer-events: none;
+  opacity: 0;
+  transform: translate(10%, -50%);
+  transition: 0.1s ease;
+}
+
+.face-description {
+  user-select: none;
+  position: absolute;
+  max-width: 14ch;
+  top: 50%;
+  font-size: 1rem;
+  right: 1%;
+  color: rgba(255,255,255,0.55);
+  line-height: 1.5;
+}
+
+.face-description.active {
+  opacity: 1;
+  transform: translate(-90%, -50%);
+  pointer-events: auto;
+  transition: 0.5s ease;
+}
+
+.face-description.inactive {
+  pointer-events: none;
+  transform: translate(-60%, -50%);
+  opacity: 0;
+  transition: 0.1s ease;
+}
+
+.action-button {
+  position: absolute;
+  left: 50%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 24px;
+  background: #a855f7;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  width: auto;
+  height: auto;
+  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.action-button:hover {
+  background: #c084fc;
+  transform: translateX(-50%) scale(1.06) !important;
+  box-shadow: 0 0 24px rgba(168, 85, 247, 0.6), 0 0 48px rgba(168, 85, 247, 0.25);
+}
+
+.action-button:hover .action-button-icon {
+  transform: translate(2px, -2px);
+}
+
+.action-button-label {
+  user-select: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.action-button-icon {
+  user-select: none;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1;
+  transition: transform 0.2s ease;
+}
+
+.action-button.active {
+  bottom: 3.8em;
+  transform: translateX(-50%) scale(1);
+  opacity: 1;
+  pointer-events: auto;
+  transition: 0.5s ease;
+}
+
+.action-button.inactive {
+  bottom: -80px;
+  transform: translateX(-50%) scale(0);
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.1s ease;
+}
+
+@media (max-width: 1500px) {
+  .face-title,
+  .face-description {
+    display: none;
+  }
+}

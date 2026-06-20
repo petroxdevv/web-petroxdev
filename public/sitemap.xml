@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Página principal -->
+  <url>
+    <loc>https://petroxdev.com/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://petroxdev.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petroxdev.com/"/>
+  </url>
+
+  <!-- Servicios -->
+  <url>
+    <loc>https://petroxdev.com/servicios</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://petroxdev.com/servicios"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petroxdev.com/servicios"/>
+  </url>
+
+  <!-- Proyectos -->
+  <url>
+    <loc>https://petroxdev.com/proyectos</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://petroxdev.com/proyectos"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petroxdev.com/proyectos"/>
+  </url>
+
+  <!-- Software -->
+  <url>
+    <loc>https://petroxdev.com/software</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://petroxdev.com/software"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petroxdev.com/software"/>
+  </url>
+
+  <!-- Páginas legales -->
+  <url>
+    <loc>https://petroxdev.com/aviso-legal</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://petroxdev.com/privacidad</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://petroxdev.com/cookies</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>
